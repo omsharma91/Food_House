@@ -1,0 +1,29 @@
+.hero{
+    background-image: url('/hero banner.png');
+    object-fit: cover;
+    opacity: 0.9;
+    height: 91vh;
+    padding: 4rem;
+}
+.hero_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonss{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10rem;
+    gap: 2rem;
+}
+.myheading{
+    font-size: 2rem;
+}
+.hover-green:hover{
+    border-color: red;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}
