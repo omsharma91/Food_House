@@ -14,7 +14,7 @@ export default function Card() {
   return (
     <>
       <h1 className="text-center m-5">Popular Deals </h1>
-      <div className="card-container">
+      <div className="card-container cont_margin">
         {dishes.map((dish, index) => (
           <div
             key={index}
@@ -40,11 +40,11 @@ export default function Card() {
             </p>
             <div className="d-flex justify-content-between ">
               <div>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+                <i className="fa-regular fa-star"></i>
+                <i className="fa-regular fa-star"></i>
+                <i className="fa-regular fa-star"></i>
+                <i className="fa-regular fa-star"></i>
+                <i className="fa-regular fa-star"></i>
               </div>
               <a href="">Order Now</a>
             </div>

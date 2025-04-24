@@ -27,3 +27,53 @@
     grid-template-columns: repeat(4,1fr);
     gap: 2rem;
 }
+.cont_margin{
+    margin: 3.5rem;
+}
+.aboutus {
+    background-image: url('./3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    border-radius: 12px;
+    display: flex;
+    margin: 2rem;
+    padding: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-align:justify;
+  }
+  .aboutus button {     
+    padding: 0.5rem 2.5rem;
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    border-radius: 6px;
+  }
+  .box{
+    background-image: url("/foodforu/public/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    border-radius: 12px;
+    display: flex;
+    
+    height: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-align:justify;
+  }
+  .box{
+    border: 2px solid black;
+    margin-top: 2rem;
+    width: 40%;
+  }
+  .box img{
+    border-radius: 50%;
+    height: 5rem;
+    width: 8rem;
+  }
