@@ -59,7 +59,6 @@
     background-position: center;
     border-radius: 12px;
     display: flex;
-    
     height: 40%;
     flex-direction: column;
     justify-content: center;
@@ -76,4 +75,7 @@
     border-radius: 50%;
     height: 5rem;
     width: 8rem;
+  }
+  .customer{
+    margin-top: 10rem;
   }

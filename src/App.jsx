@@ -3,6 +3,9 @@ import Herosection from './components/Herosection/Herosection'
 import Card from './components/productCard/Card'
 import Aboutus from './components/about/Aboutus'
 import Customer from './components/customerReview/Customer'
+import Order_step from './components/Howtoodr.jsx/order'
+import Order from './components/Howtoodr.jsx/order'
+import Footer from './components/footer/footer'
 
 
 function App() {
@@ -13,6 +16,8 @@ function App() {
       <Card/>    
       <Aboutus/>
       <Customer/>
+      <Order/>
+      <Footer/>
     </>
   )
 }

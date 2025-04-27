@@ -12,8 +12,8 @@ export default function Customer() {
   console.log(reviews);
   return (
     <>
-      <h1 className="text-center m-5">What Customer Say About Us ?</h1>
-      <div className="d-flex justify-content-center">
+      <h1 className="text-center m-5 p-5">What Customer Say About Us ?</h1>
+      <div className="d-flex justify-content-center customer">
         {reviews.map((review, index) => (
           <div key={index} className="w-50 ">
             <div className="box bg-dark text-white m-5 pb-5 w-75">
