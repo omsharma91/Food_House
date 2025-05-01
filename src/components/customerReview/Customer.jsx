@@ -9,7 +9,6 @@ export default function Customer() {
       setReview(response.data);
     });
   }, []);
-  console.log(reviews);
   return (
     <>
       <h1 className="text-center m-5 p-5">What Customer Say About Us ?</h1>

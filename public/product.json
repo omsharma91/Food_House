@@ -44,7 +44,7 @@
         "name" : "Spicy Tuna Roll",
         "category" : "Non Veg Roll",
         "brand" : "samsung",
-        "price" : 1799,
+        "price" : 599,
         "stock" : 20,
         "img" : "rollimg/spicytuna.jpg",
         "description" : "Experience the bold flavors of our Spicy Tuna Roll! Fresh, premium tuna paired with a kick of zesty spice, wrapped in perfectly seasoned rice and crisp seaweed. Satisfy your sushi cravings with this delicious blend of heat and freshness in every bite"
@@ -54,7 +54,7 @@
         "name" : "Spider Roll",
         "category" : "Non Veg Roll",
         "brand" : "samsung",
-        "price" : 1799,
+        "price" : 499,
         "stock" : 20,
         "img" : "rollimg/spider.jpg",
         "description" : "Indulge in our mouth-watering Spider Roll, made with crispy soft-shell crab, fresh cucumber, and creamy avocado, all wrapped in a perfect sushi roll. A delicious fusion of textures and flavors, ideal for sushi lovers"
@@ -64,7 +64,7 @@
         "name" : "Veg Roll",
         "category" : "Veg Roll",
         "brand" : "samsung",
-        "price" : 1799,
+        "price" : 99,
         "stock" : 20,
         "img" : "rollimg/veg.jpg",
         "description" : "Delicious homemade veg rolls, packed with fresh vegetables and flavorful spices, perfect for a quick snack or a light meal. Order now for fast delivery and enjoy the taste of health and flavor"
@@ -74,7 +74,7 @@
         "name" : "Wrap Roll",
         "category" : "Veg Roll",
         "brand" : "samsung",
-        "price" : 1799,
+        "price" : 199,
         "stock" : 20,
         "img" : "rollimg/wrap.jpg",
         "description" : "Delicious, fresh, and made-to-order, our Wrap Rolls bring you a fusion of flavors wrapped in soft, warm bread. Perfect for a quick snack or a wholesome meal, our rolls are packed with fresh ingredients, savory sauces, and your choice of fillings. Experience a burst of taste with every bite"

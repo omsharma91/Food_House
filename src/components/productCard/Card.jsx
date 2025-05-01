@@ -10,7 +10,7 @@ export default function Card() {
       setDishes(response.data);
     });
   }, []);
-  console.log(dishes);
+
   return (
     <>
       <h1 className="text-center m-5">Popular Deals </h1>

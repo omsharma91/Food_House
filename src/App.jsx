@@ -1,24 +1,19 @@
 import Navbarr from './components/navbar/Navbar'
-import Herosection from './components/Herosection/Herosection'
-import Card from './components/productCard/Card'
-import Aboutus from './components/about/Aboutus'
-import Customer from './components/customerReview/Customer'
-import Order_step from './components/Howtoodr.jsx/order'
-import Order from './components/Howtoodr.jsx/order'
-import Footer from './components/footer/footer'
-
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
+import Homepage from './components/Home/Homepage'
+import Register from './components/register/Register'
+import Login from './components/login/login'
 
 function App() {
   return (
-    <>
+    <Router>
       <Navbarr/>
-      <Herosection/>
-      <Card/>    
-      <Aboutus/>
-      <Customer/>
-      <Order/>
-      <Footer/>
-    </>
+      <Routes>
+        <Route path='/' element={<Homepage/>}/>
+        <Route path='/register' element={<Register/>}/>
+        <Route path={'/login'} element={<Login/>}/>
+      </Routes>
+    </Router>
   )
 }
 
