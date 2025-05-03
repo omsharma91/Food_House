@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function Roll() {
+export default function Productcard({brand}) {
   const [productData, setProductData] = useState([]);
 
   useEffect(() => {
@@ -12,26 +13,25 @@ export default function Roll() {
 
   return (
     <div>
-      <h1>Delicious roll for you</h1>
-
-      <div>
-        <button className="p-1 w-6 bg-transparent">
-          <i className="fa-solid fa-filter me-2"></i>
-          Filter
-        </button>
+      <h1 className="text-center m-3">{`Delicious ${brand} for you`}</h1>
+      <div className="d-flex gap-2 m-2">
+        <div>
+          <button className="p-1 w-6 bg-transparent">
+            <i className="fa-solid fa-filter me-2"></i>
+            Filter
+          </button>
+        </div>
+        <div>
+          <button className="p-1 w-6 bg-transparent">
+            <i className="fa-solid fa-sort me-2"></i>
+            Sort By
+          </button>
+        </div>
       </div>
       <div>
-        <button className="p-1 w-6 bg-transparent">
-          <i className="fa-solid fa-sort me-2"></i>
-          Sort By
-        </button>
-      </div>
-
-      <div>
-        <h1 className="text-center m-5">Popular Deals</h1>
-        <div className="card-container cont_margin">
+        <div className="card-container m-5">
           {productData
-            .filter((dish) => dish.brand === "roll")
+            .filter((dish) => dish.brand === `${brand}`)
             .map((dish, index) => (
               <div
                 key={index}

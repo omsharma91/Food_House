@@ -14,32 +14,32 @@ export default function Menu() {
   return (
     <>
       <div className="d-flex m-4 gap-4 justify-content-start">
-        <Link>
+        <Link to={'/roll'}>
           <button className="border-white rounded-circle bg-transparent">
             <img src="./Rolls.avif" alt="" className="w-75" />
           </button>
         </Link>
-        <Link>
+        <Link to={'/pizza'}>
           <button className="border-white rounded-circle bg-transparent">
             <img src="./Pizza.avif" alt="" className="w-75" />
           </button>
         </Link>
-        <Link>
+        <Link to={'/cake'}>
           <button className="border-white rounded-circle bg-transparent">
             <img src="./Cake.avif" alt="" className="w-75" />
           </button>
         </Link>
-        <Link>
+        <Link to={'/burger'}>
           <button className="border-white rounded-circle bg-transparent">
             <img src="./Burger.avif" alt="" className="w-75" />
           </button>
         </Link>
-        <Link>
+        <Link to={'/biryani'}>
           <button className="border-white rounded-circle bg-transparent">
             <img src="./Biryani.avif" alt="" className="w-75" />
           </button>
         </Link>
-        <Link>
+        <Link to={'/north_indian'}>
           <button className="border-white rounded-circle bg-transparent">
             <img src="./North Indian.avif" alt="" className="w-75" />
           </button>

@@ -1,6 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Aboutus() {
+  const navigate = useNavigate()
+  function handelMenu(){
+    navigate('/menu')
+  }
   return (
     <div>
       <div className="aboutus ">
@@ -27,7 +32,7 @@ export default function Aboutus() {
             together.
           </p>
         </div>
-        <button>Our Menu</button>
+        <button onClick={handelMenu}>Our Menu</button>
       </div>
     </div>
   );
