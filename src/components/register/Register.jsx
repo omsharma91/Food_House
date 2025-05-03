@@ -1,10 +1,9 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-
 
 const schema = yup.object().shape({
   name: yup.string().required("Name is required"),
@@ -31,10 +30,12 @@ export default function Register() {
   } = useForm({
     resolver: yupResolver(schema),
   });
+  const navigate = useNavigate();
 
   function onSubmit(data) {
     console.log(data);
     alert("Registration Successful!");
+    navigate('/')
   }
 
   return (

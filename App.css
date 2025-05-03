@@ -82,3 +82,18 @@
 .login{
   margin-left: 10rem;
 }
+.logo{
+  width: 2.5rem;
+  height: 2rem;
+}
+.roll{
+  background-image: url('./public/rollimg/1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: "100vh";
+}
+.w-6{
+  width: 6rem;
+  height: 2.5rem;
+  border-radius: 32%;
+}

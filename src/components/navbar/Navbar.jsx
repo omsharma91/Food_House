@@ -5,8 +5,11 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { myContext } from "../../App";
 
 function Navbarr() {
+  const { loginData, setLoginData } = useContext(myContext);
   return (
     <Navbar expand="lg" className="bg-success ">
       <Container fluid>
@@ -26,6 +29,17 @@ function Navbarr() {
           </Link>
           <Link to={"/register"} className="text-decoration-none text-white">
             <li>Login</li>
+          </Link>
+          <Link to={'/profile'} className="text-decoration-none text-style-none text-white ">
+            {loginData?.photoURL? (
+              <img
+                src={loginData.photoURL}
+                alt=""
+                className="logo rounded-circle"
+              />
+            ) : (
+              <li className="rounded-circle bg-dark p-1">Guest</li>
+            )}
           </Link>
         </Nav>
         <Form className="d-flex">

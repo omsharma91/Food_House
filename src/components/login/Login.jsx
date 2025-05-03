@@ -1,18 +1,20 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useNavigate } from "react-router-dom";
 import { auth, provider } from "../../confg/auth";
 import { signInWithPopup } from "firebase/auth";
+import { myContext } from "../../App";
 
 export default function Login() {
   const [user, setUser] = useState({});
+  const {loginData,setLoginData} = useContext(myContext);
   const navigate = useNavigate();
 
   const handleSignin = async () => {
     try {
       const result = await signInWithPopup(auth, provider);
       console.log("Google User:", result.user);
-      setUser(result.user);
+      setLoginData(result.user);
       alert("Successfully logged in");
       navigate("/");
     } catch (error) {
