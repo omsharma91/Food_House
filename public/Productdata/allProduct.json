@@ -1,0 +1,604 @@
+[
+    {
+      "id": 1,
+      "name": "Hyderabadi Biryani",
+      "category": "biryani",
+      "brand": "Biryani House",
+      "price": 250,
+      "stock": 20,
+      "image": "./biryaniimg/image1.jpg",
+      "description": "A spicy and flavorful rice dish from Hyderabad."
+    },
+    {
+      "id": 2,
+      "name": "Lucknowi Biryani",
+      "category": "biryani",
+      "brand": "Royal Biryani",
+      "price": 220,
+      "stock": 15,
+      "image": "./biryaniimg/image2.jpg",
+      "description": "A mildly spiced biryani with tender meat from Lucknow."
+    },
+    {
+      "id": 3,
+      "name": "Kolkata Biryani",
+      "category": "biryani",
+      "brand": "City Biryani",
+      "price": 200,
+      "stock": 25,
+      "image": "./biryaniimg/image3.jpg",
+      "description": "A light biryani with potatoes and subtle flavors."
+    },
+    {
+      "id": 4,
+      "name": "Veg Biryani",
+      "category": "biryani",
+      "brand": "Green Bowl",
+      "price": 180,
+      "stock": 30,
+      "image": "./biryaniimg/image4.jpg",
+      "description": "A flavorful rice dish made with vegetables and spices."
+    },
+    {
+      "id": 5,
+      "name": "Chicken Dum Biryani",
+      "category": "biryani",
+      "brand": "Dum Pukht",
+      "price": 270,
+      "stock": 10,
+      "image": "./biryaniimg/image5.jpg",
+      "description": "Slow-cooked chicken biryani with aromatic spices."
+    },
+    {
+      "id": 6,
+      "name": "Mutton Biryani",
+      "category": "biryani",
+      "brand": "Meat Lovers",
+      "price": 300,
+      "stock": 18,
+      "image": "./biryaniimg/image6.jpg",
+      "description": "A rich and hearty biryani with tender mutton pieces."
+    },
+    {
+      "id": 7,
+      "name": "Paneer Biryani",
+      "category": "biryani",
+      "brand": "Veg Delight",
+      "price": 200,
+      "stock": 22,
+      "image": "./biryaniimg/image7.jpg",
+      "description": "A vegetarian biryani made with paneer and basmati rice."
+    },
+    {
+      "id": 8,
+      "name": "Egg Biryani",
+      "category": "biryani",
+      "brand": "Eggcellent",
+      "price": 190,
+      "stock": 20,
+      "image": "./biryaniimg/image8.jpg",
+      "description": "Rice biryani served with boiled eggs and masala."
+    },
+    {
+      "id": 9,
+      "name": "Fish Biryani",
+      "category": "biryani",
+      "brand": "Sea Bites",
+      "price": 280,
+      "stock": 12,
+      "image": "./biryaniimg/image9.jpg",
+      "description": "A coastal specialty biryani made with fish fillets."
+    },
+    {
+      "id": 10,
+      "name": "Keema Biryani",
+      "category": "biryani",
+      "brand": "Spice Route",
+      "price": 260,
+      "stock": 14,
+      "image": "./biryaniimg/image10.jpg",
+      "description": "Minced meat biryani with bold spices and herbs."
+    },
+    {
+      "id": 11,
+      "name": "Chicken Roll",
+      "category": "roll",
+      "brand": "Wrap It",
+      "price": 120,
+      "stock": 30,
+      "image": "./rollimg/image1.jpg",
+      "description": "A spicy chicken roll wrapped in a soft paratha."
+    },
+    {
+      "id": 12,
+      "name": "Paneer Roll",
+      "category": "roll",
+      "brand": "Veggie Wraps",
+      "price": 100,
+      "stock": 25,
+      "image": "./rollimg/image2.jpg",
+      "description": "Soft wrap filled with spiced paneer cubes."
+    },
+    {
+      "id": 13,
+      "name": "Mutton Roll",
+      "category": "roll",
+      "brand": "Roll Nation",
+      "price": 150,
+      "stock": 20,
+      "image": "./rollimg/image3.jpg",
+      "description": "Juicy mutton pieces wrapped with onions and sauce."
+    },
+    {
+      "id": 14,
+      "name": "Egg Roll",
+      "category": "roll",
+      "brand": "Egg Express",
+      "price": 90,
+      "stock": 35,
+      "image": "./rollimg/image4.jpg",
+      "description": "Simple and tasty roll made with egg and onions."
+    },
+    {
+      "id": 15,
+      "name": "Mixed Roll",
+      "category": "roll",
+      "brand": "Fusion Wraps",
+      "price": 140,
+      "stock": 18,
+      "image": "./rollimg/image5.jpg",
+      "description": "A combo of chicken, egg, and veggies in one roll."
+    },
+    {
+      "id": 16,
+      "name": "Cheese Roll",
+      "category": "roll",
+      "brand": "Wrap World",
+      "price": 130,
+      "stock": 16,
+      "image": "./rollimg/image6.jpg",
+      "description": "A cheesy delight with vegetables and sauce."
+    },
+    {
+      "id": 17,
+      "name": "Tandoori Roll",
+      "category": "roll",
+      "brand": "Tandoori Treats",
+      "price": 160,
+      "stock": 10,
+      "image": "./rollimg/image7.jpg",
+      "description": "Tandoori chicken wrapped in spicy dressing."
+    },
+    {
+      "id": 18,
+      "name": "Aloo Roll",
+      "category": "roll",
+      "brand": "Desi Wrap",
+      "price": 80,
+      "stock": 20,
+      "image": "./rollimg/image8.jpg",
+      "description": "Spiced mashed potato filling with chutney."
+    },
+    {
+      "id": 19,
+      "name": "Soya Roll",
+      "category": "roll",
+      "brand": "Protein Wraps",
+      "price": 110,
+      "stock": 15,
+      "image": "./rollimg/image9.jpg",
+      "description": "A protein-rich roll made with soya chunks."
+    },
+    {
+      "id": 20,
+      "name": "BBQ Chicken Roll",
+      "category": "roll",
+      "brand": "BBQ Express",
+      "price": 170,
+      "stock": 12,
+      "image": "./rollimg/image10.jpg",
+      "description": "Barbeque chicken roll with smoky flavor."
+    },
+    {
+      "id": 21,
+      "name": "Chocolate Cake",
+      "category": "cake",
+      "brand": "Cake World",
+      "price": 350,
+      "stock": 8,
+      "image": "./cakeimg/image1.jpg",
+      "description": "Rich and moist chocolate layer cake."
+    },
+    {
+      "id": 22,
+      "name": "Vanilla Cake",
+      "category": "cake",
+      "brand": "Sweet Tooth",
+      "price": 300,
+      "stock": 10,
+      "image": "./cakeimg/image2.jpg",
+      "description": "Classic vanilla sponge cake with frosting."
+    },
+    {
+      "id": 23,
+      "name": "Red Velvet Cake",
+      "category": "cake",
+      "brand": "Bake My Day",
+      "price": 400,
+      "stock": 6,
+      "image": "./cakeimg/image3.jpg",
+      "description": "Soft red velvet cake with cream cheese frosting."
+    },
+    {
+      "id": 24,
+      "name": "Black Forest Cake",
+      "category": "cake",
+      "brand": "German Delights",
+      "price": 370,
+      "stock": 9,
+      "image": "./cakeimg/image4.jpg",
+      "description": "Chocolate sponge with cherries and whipped cream."
+    },
+    {
+      "id": 25,
+      "name": "Pineapple Cake",
+      "category": "cake",
+      "brand": "Tropical Bakes",
+      "price": 320,
+      "stock": 12,
+      "image": "./cakeimg/image5.jpg",
+      "description": "Tangy pineapple cream cake with fruit toppings."
+    },
+    {
+      "id": 26,
+      "name": "Butterscotch Cake",
+      "category": "cake",
+      "brand": "Crunch Bakes",
+      "price": 360,
+      "stock": 7,
+      "image": "./cakeimg/image6.jpg",
+      "description": "Sweet butterscotch flavored layered cake."
+    },
+    {
+      "id": 27,
+      "name": "Coffee Cake",
+      "category": "cake",
+      "brand": "Cafe Bites",
+      "price": 340,
+      "stock": 8,
+      "image": "./cakeimg/image7.jpg",
+      "description": "Rich cake with hints of coffee and cream."
+    },
+    {
+      "id": 28,
+      "name": "Strawberry Cake",
+      "category": "cake",
+      "brand": "Berry Bakes",
+      "price": 330,
+      "stock": 10,
+      "image": "./cakeimg/image8.jpg",
+      "description": "Pink strawberry cake with fruit glaze."
+    },
+    {
+      "id": 29,
+      "name": "Mango Cake",
+      "category": "cake",
+      "brand": "Mango Mania",
+      "price": 340,
+      "stock": 9,
+      "image": "./cakeimg/image9.jpg",
+      "description": "Seasonal mango flavored soft cream cake."
+    },
+    {
+      "id": 30,
+      "name": "Oreo Cake",
+      "category": "cake",
+      "brand": "Cookie Crumble",
+      "price": 380,
+      "stock": 6,
+      "image": "./cakeimg/image10.jpg",
+      "description": "Chocolate cake topped with Oreo pieces."
+    },
+        {
+          "id": 31,
+          "name": "Cheese Burger",
+          "category": "burger",
+          "brand": "Burger Bite",
+          "price": 150,
+          "stock": 20,
+          "image": "./burgerimg/image1.jpg",
+          "description": "Juicy beef patty with melted cheese in a bun."
+        },
+        {
+          "id": 32,
+          "name": "Veggie Burger",
+          "category": "burger",
+          "brand": "Green Grill",
+          "price": 130,
+          "stock": 18,
+          "image": "./burgerimg/image2.jpg",
+          "description": "Grilled vegetable patty with lettuce and mayo."
+        },
+        {
+          "id": 33,
+          "name": "Chicken Burger",
+          "category": "burger",
+          "brand": "Cluckin' Good",
+          "price": 140,
+          "stock": 22,
+          "image": "./burgerimg/image3.jpg",
+          "description": "Crispy chicken patty in a toasted bun."
+        },
+        {
+          "id": 34,
+          "name": "Paneer Burger",
+          "category": "burger",
+          "brand": "Desi Buns",
+          "price": 135,
+          "stock": 16,
+          "image": "./burgerimg/image4.jpg",
+          "description": "Indian-style burger with grilled paneer filling."
+        },
+        {
+          "id": 35,
+          "name": "Spicy Chicken Burger",
+          "category": "burger",
+          "brand": "Fire Grill",
+          "price": 160,
+          "stock": 12,
+          "image": "./burgerimg/image5.jpg",
+          "description": "Extra spicy burger for spice lovers."
+        },
+        {
+          "id": 36,
+          "name": "Double Patty Burger",
+          "category": "burger",
+          "brand": "Heavy Bite",
+          "price": 180,
+          "stock": 10,
+          "image": "./burgerimg/image6.jpg",
+          "description": "Two juicy patties stacked in one bun."
+        },
+        {
+          "id": 37,
+          "name": "Fish Burger",
+          "category": "burger",
+          "brand": "Ocean Buns",
+          "price": 155,
+          "stock": 14,
+          "image": "./burgerimg/image7.jpg",
+          "description": "Light and crispy fish fillet burger."
+        },
+        {
+          "id": 38,
+          "name": "Egg Burger",
+          "category": "burger",
+          "brand": "Eggcellent Eats",
+          "price": 125,
+          "stock": 15,
+          "image": "./burgerimg/image8.jpg",
+          "description": "Fried egg in bun with mayo and lettuce."
+        },
+        {
+          "id": 39,
+          "name": "BBQ Burger",
+          "category": "burger",
+          "brand": "Smoky Grill",
+          "price": 165,
+          "stock": 13,
+          "image": "./burgerimg/image9.jpg",
+          "description": "BBQ sauce drenched burger with grilled patty."
+        },
+        {
+          "id": 40,
+          "name": "Classic Hamburger",
+          "category": "burger",
+          "brand": "Grill King",
+          "price": 145,
+          "stock": 17,
+          "image": "./burgerimg/image10.jpg",
+          "description": "Traditional hamburger with lettuce and tomato."
+        },
+        {
+          "id": 41,
+          "name": "Butter Chicken",
+          "category": "north indian",
+          "brand": "Curry House",
+          "price": 250,
+          "stock": 20,
+          "image": "./northindian/image1.jpg",
+          "description": "Creamy butter chicken cooked in rich tomato gravy."
+        },
+        {
+          "id": 42,
+          "name": "Palak Paneer",
+          "category": "north indian",
+          "brand": "Desi Tadka",
+          "price": 200,
+          "stock": 25,
+          "image": "./northindian/image2.jpg",
+          "description": "Spinach curry with soft paneer cubes."
+        },
+        {
+          "id": 43,
+          "name": "Dal Makhani",
+          "category": "north indian",
+          "brand": "Punjab Express",
+          "price": 180,
+          "stock": 18,
+          "image": "./northindian/image3.jpg",
+          "description": "Rich black lentil curry slow-cooked overnight."
+        },
+        {
+          "id": 44,
+          "name": "Chole Bhature",
+          "category": "north indian",
+          "brand": "Chatori Gully",
+          "price": 160,
+          "stock": 30,
+          "image": "./northindian/image4.jpg",
+          "description": "Spicy chickpeas served with fluffy fried bread."
+        },
+        {
+          "id": 45,
+          "name": "Shahi Paneer",
+          "category": "north indian",
+          "brand": "Royal Kitchen",
+          "price": 220,
+          "stock": 15,
+          "image": "./northindian/image5.jpg",
+          "description": "Rich creamy paneer curry with cashew gravy."
+        },
+        {
+          "id": 46,
+          "name": "Rajma Chawal",
+          "category": "north indian",
+          "brand": "Ghar Ka Khana",
+          "price": 170,
+          "stock": 28,
+          "image": "./northindian/image6.jpg",
+          "description": "Red kidney beans in gravy served with rice."
+        },
+        {
+          "id": 47,
+          "name": "Aloo Paratha",
+          "category": "north indian",
+          "brand": "Tandoori Tandoor",
+          "price": 90,
+          "stock": 35,
+          "image": "./northindian/image7.jpg",
+          "description": "Stuffed flatbread with spiced mashed potatoes."
+        },
+        {
+          "id": 48,
+          "name": "Mix Veg Curry",
+          "category": "north indian",
+          "brand": "Healthy Curry",
+          "price": 190,
+          "stock": 20,
+          "image": "./northindian/image8.jpg",
+          "description": "A mix of seasonal vegetables in tomato gravy."
+        },
+        {
+          "id": 49,
+          "name": "Baingan Bharta",
+          "category": "north indian",
+          "brand": "Desi Delight",
+          "price": 160,
+          "stock": 12,
+          "image": "./northindian/image9.jpg",
+          "description": "Roasted brinjal mashed with spices and herbs."
+        },
+        {
+          "id": 50,
+          "name": "Paneer Tikka Masala",
+          "category": "north indian",
+          "brand": "Kebabi Junction",
+          "price": 230,
+          "stock": 14,
+          "image": "./northindian/image10.jpg",
+          "description": "Grilled paneer cubes in spicy tomato gravy."
+        },
+        {
+          "id": 51,
+          "name": "Margherita Pizza",
+          "category": "pizza",
+          "brand": "Pizza Hub",
+          "price": 250,
+          "stock": 20,
+          "image": "./pizzaimg/image1.jpg",
+          "description": "Classic cheese pizza with tomato sauce base."
+        },
+        {
+          "id": 52,
+          "name": "Veggie Delight Pizza",
+          "category": "pizza",
+          "brand": "Cheesy Crust",
+          "price": 270,
+          "stock": 18,
+          "image": "./pizzaimg/image2.jpg",
+          "description": "Loaded with fresh vegetables and cheese."
+        },
+        {
+          "id": 53,
+          "name": "Pepperoni Pizza",
+          "category": "pizza",
+          "brand": "Meat Feast",
+          "price": 290,
+          "stock": 16,
+          "image": "./pizzaimg/image3.jpg",
+          "description": "Topped with spicy pepperoni and mozzarella."
+        },
+        {
+          "id": 54,
+          "name": "BBQ Chicken Pizza",
+          "category": "pizza",
+          "brand": "Grill'd Pizza",
+          "price": 300,
+          "stock": 15,
+          "image": "./pizzaimg/image4.jpg",
+          "description": "Smoky BBQ chicken pieces on cheesy crust."
+        },
+        {
+          "id": 55,
+          "name": "Paneer Tikka Pizza",
+          "category": "pizza",
+          "brand": "Indiano's",
+          "price": 280,
+          "stock": 12,
+          "image": "./pizzaimg/image5.jpg",
+          "description": "Indian-style paneer pizza with spicy masala."
+        },
+        {
+          "id": 56,
+          "name": "Farmhouse Pizza",
+          "category": "pizza",
+          "brand": "Pizza Palace",
+          "price": 290,
+          "stock": 13,
+          "image": "./pizzaimg/image6.jpg",
+          "description": "Loaded with veggies like capsicum, onion, tomato."
+        },
+        {
+          "id": 57,
+          "name": "Chicken Sausage Pizza",
+          "category": "pizza",
+          "brand": "Spicy Crust",
+          "price": 310,
+          "stock": 10,
+          "image": "./pizzaimg/image7.jpg",
+          "description": "Topped with juicy chicken sausages and herbs."
+        },
+        {
+          "id": 58,
+          "name": "Mexican Green Wave Pizza",
+          "category": "pizza",
+          "brand": "Domino Star",
+          "price": 295,
+          "stock": 14,
+          "image": "./pizzaimg/image8.jpg",
+          "description": "Spicy jalapeños, onions, capsicum, and cheese."
+        },
+        {
+          "id": 59,
+          "name": "Cheese Burst Pizza",
+          "category": "pizza",
+          "brand": "Melto's",
+          "price": 320,
+          "stock": 8,
+          "image": "./pizzaimg/image9.jpg",
+          "description": "Bursting with cheese in every bite."
+        },
+        {
+          "id": 60,
+          "name": "Tandoori Chicken Pizza",
+          "category": "pizza",
+          "brand": "Fusion Pie",
+          "price": 310,
+          "stock": 9,
+          "image": "./pizzaimg/image10.jpg",
+          "description": "Indian tandoori chicken twist on a pizza."
+        }
+      
+  ]
+  

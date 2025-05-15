@@ -5,7 +5,7 @@ import axios from "axios";
 export default function Customer() {
   const [reviews, setReview] = useState([]);
   useEffect(() => {
-    axios.get("/customerReview.json").then((response) => {
+    axios.get("/Productdata/customerReview.json").then((response) => {
       setReview(response.data);
     });
   }, []);

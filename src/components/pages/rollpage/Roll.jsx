@@ -6,11 +6,11 @@ export default function Productcard({brand}) {
   const [productData, setProductData] = useState([]);
 
   useEffect(() => {
-    axios.get("/Allproduct.json").then((response) => {
+    axios.get("./Productdata/allProduct.json").then((response) => {
+      
       setProductData(response.data);
     });
   }, []);
-
   return (
     <div>
       <h1 className="text-center m-3">{`Delicious ${brand} for you`}</h1>
@@ -31,14 +31,14 @@ export default function Productcard({brand}) {
       <div>
         <div className="card-container m-5">
           {productData
-            .filter((dish) => dish.brand === `${brand}`)
+            .filter((dish) => dish.category === `${brand}`)
             .map((dish, index) => (
               <div
                 key={index}
                 className="d-flex flex-column justify-content-center m-3 p-3 border"
               >
                 <img
-                  src={`/${dish.img}`}
+                  src={`/${dish.image}`}
                   alt={dish.name}
                   className="img-fluid"
                 />

@@ -6,8 +6,10 @@ import { Link } from "react-router-dom";
 export default function Menu() {
   const [productDatas, setProductData] = useState([]);
   const [selected, setSelected] = useState("");
+  const [cartData,setCartData] = useState([])
+
   useEffect(() => {
-    axios.get("/Allproduct.json").then((response) => {
+    axios.get("./Productdata/product.json").then((response) => {
       setProductData(response.data);
     });
   }, []);
@@ -80,7 +82,7 @@ export default function Menu() {
               </div>
               <a href="">Order Now</a>
             </div>
-            <button className="btn btn-success m-3">Add To Cart</button>
+            <button className="btn btn-success m-3" onClick={()=>setCartData(product)}>Add To Cart</button>
           </div>
         ))}
       </div>

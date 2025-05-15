@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
+import { createUserWithEmailAndPassword } from "firebase/auth";
 import * as yup from "yup";
+import { auth } from "../../confg/auth";
 
 const schema = yup.object().shape({
   name: yup.string().required("Name is required"),
@@ -23,6 +25,7 @@ const schema = yup.object().shape({
 });
 
 export default function Register() {
+  const [registerData,setRegisterData] = useState([])
   const {
     register,
     handleSubmit,
@@ -32,10 +35,36 @@ export default function Register() {
   });
   const navigate = useNavigate();
 
-  function onSubmit(data) {
-    console.log(data);
-    alert("Registration Successful!");
-    navigate('/')
+  async function onSubmit(data) {
+    try {
+      const result = await createUserWithEmailAndPassword(
+        auth,
+        data.email,
+        data.password
+      );
+      console.log("User created:", result.user);
+      setRegisterData(result.user)
+      alert("User created successfully.");
+      navigate("/");
+    } catch (error) {
+      // console.log("Signup error:", error);
+      if(error.code=="auth/email-already-in-use"){
+        alert("email already registered")
+      }else if (error.code === "auth/user-not-found") {
+        alert("User not found. Please check your email or sign up.");
+      } else if (error.code === "auth/wrong-password") {
+        alert("Incorrect password. Please try again.");
+      } else if (error.code === "auth/invalid-email") {
+        alert("Invalid email format.");
+      } else if (error.code === "auth/operation-not-allowed") {
+        alert("Email/password sign-in is disabled in Firebase console.");
+      } else {
+        alert("Login failed: " + error.message);
+      }
+      // alert("Signup failed: " + error.message);
+      console.log(error);
+    }
+    
   }
 
   return (
@@ -91,14 +120,21 @@ export default function Register() {
           <label className="form-label">Confirm Password</label>
           <input
             type="password"
-            className={`form-control ${errors.confirm_password ? "is-invalid" : ""}`}
+            className={`form-control ${
+              errors.confirm_password ? "is-invalid" : ""
+            }`}
             {...register("confirm_password")}
           />
-          <div className="invalid-feedback">{errors.confirm_password?.message}</div>
+          <div className="invalid-feedback">
+            {errors.confirm_password?.message}
+          </div>
         </div>
 
         <div className="d-flex justify-content-between align-items-center">
-          <button type="submit" className="btn btn-primary">
+          <button
+            type="submit"
+            className="btn btn-primary"
+          >
             Register
           </button>
           <div className="text-end">

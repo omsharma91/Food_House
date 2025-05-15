@@ -6,7 +6,7 @@ export default function Card() {
   const [dishes, setDishes] = useState([]);
 
   useEffect(() => {
-    axios.get("/product.json").then((response) => {
+    axios.get("./Productdata/product.json").then((response) => {
       setDishes(response.data);
     });
   }, []);
