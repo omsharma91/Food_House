@@ -22,7 +22,7 @@ export default function SearchPage() {
         product.name.toLowerCase().includes(searchTerm.toLowerCase())
       );
   return (
-    <div className="container mt-5">
+    <div className=" d-flex flex-column container mt-5">
       <h2 className="mb-3">Search Products</h2>
       {filteredProducts.length > 0 ? (
         <ul className="list-group">

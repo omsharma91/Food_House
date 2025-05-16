@@ -6,6 +6,7 @@
       "brand": "Biryani House",
       "price": 250,
       "stock": 20,
+      "quantity":1,
       "image": "./biryaniimg/image1.jpg",
       "description": "A spicy and flavorful rice dish from Hyderabad."
     },
@@ -16,6 +17,7 @@
       "brand": "Royal Biryani",
       "price": 220,
       "stock": 15,
+      "quantity":1,
       "image": "./biryaniimg/image2.jpg",
       "description": "A mildly spiced biryani with tender meat from Lucknow."
     },
@@ -26,6 +28,7 @@
       "brand": "City Biryani",
       "price": 200,
       "stock": 25,
+      "quantity":1,
       "image": "./biryaniimg/image3.jpg",
       "description": "A light biryani with potatoes and subtle flavors."
     },
@@ -36,6 +39,7 @@
       "brand": "Green Bowl",
       "price": 180,
       "stock": 30,
+      "quantity":1,
       "image": "./biryaniimg/image4.jpg",
       "description": "A flavorful rice dish made with vegetables and spices."
     },
@@ -46,6 +50,7 @@
       "brand": "Dum Pukht",
       "price": 270,
       "stock": 10,
+      "quantity":1,
       "image": "./biryaniimg/image5.jpg",
       "description": "Slow-cooked chicken biryani with aromatic spices."
     },
@@ -56,6 +61,7 @@
       "brand": "Meat Lovers",
       "price": 300,
       "stock": 18,
+      "quantity":1,
       "image": "./biryaniimg/image6.jpg",
       "description": "A rich and hearty biryani with tender mutton pieces."
     },
@@ -66,6 +72,7 @@
       "brand": "Veg Delight",
       "price": 200,
       "stock": 22,
+      "quantity":1,
       "image": "./biryaniimg/image7.jpg",
       "description": "A vegetarian biryani made with paneer and basmati rice."
     },
@@ -76,6 +83,7 @@
       "brand": "Eggcellent",
       "price": 190,
       "stock": 20,
+      "quantity":1,
       "image": "./biryaniimg/image8.jpg",
       "description": "Rice biryani served with boiled eggs and masala."
     },
@@ -86,6 +94,7 @@
       "brand": "Sea Bites",
       "price": 280,
       "stock": 12,
+      "quantity":1,
       "image": "./biryaniimg/image9.jpg",
       "description": "A coastal specialty biryani made with fish fillets."
     },
@@ -406,7 +415,7 @@
           "brand": "Curry House",
           "price": 250,
           "stock": 20,
-          "image": "./northindian/image1.jpg",
+          "image": "./northindianimg/image1.jpg",
           "description": "Creamy butter chicken cooked in rich tomato gravy."
         },
         {
@@ -416,7 +425,7 @@
           "brand": "Desi Tadka",
           "price": 200,
           "stock": 25,
-          "image": "./northindian/image2.jpg",
+          "image": "./northindianimg/image2.jpg",
           "description": "Spinach curry with soft paneer cubes."
         },
         {
@@ -426,7 +435,7 @@
           "brand": "Punjab Express",
           "price": 180,
           "stock": 18,
-          "image": "./northindian/image3.jpg",
+          "image": "./northindianimg/image3.jpg",
           "description": "Rich black lentil curry slow-cooked overnight."
         },
         {
@@ -436,7 +445,7 @@
           "brand": "Chatori Gully",
           "price": 160,
           "stock": 30,
-          "image": "./northindian/image4.jpg",
+          "image": "./northindianimg/image4.jpg",
           "description": "Spicy chickpeas served with fluffy fried bread."
         },
         {
@@ -446,7 +455,7 @@
           "brand": "Royal Kitchen",
           "price": 220,
           "stock": 15,
-          "image": "./northindian/image5.jpg",
+          "image": "./northindianimg/image5.jpg",
           "description": "Rich creamy paneer curry with cashew gravy."
         },
         {
@@ -456,7 +465,7 @@
           "brand": "Ghar Ka Khana",
           "price": 170,
           "stock": 28,
-          "image": "./northindian/image6.jpg",
+          "image": "./northindianimg/image6.jpg",
           "description": "Red kidney beans in gravy served with rice."
         },
         {
@@ -466,7 +475,7 @@
           "brand": "Tandoori Tandoor",
           "price": 90,
           "stock": 35,
-          "image": "./northindian/image7.jpg",
+          "image": "./northindianimg/image7.jpg",
           "description": "Stuffed flatbread with spiced mashed potatoes."
         },
         {
@@ -476,7 +485,7 @@
           "brand": "Healthy Curry",
           "price": 190,
           "stock": 20,
-          "image": "./northindian/image8.jpg",
+          "image": "./northindianimg/image8.jpg",
           "description": "A mix of seasonal vegetables in tomato gravy."
         },
         {
@@ -486,7 +495,7 @@
           "brand": "Desi Delight",
           "price": 160,
           "stock": 12,
-          "image": "./northindian/image9.jpg",
+          "image": "./northindianimg/image9.jpg",
           "description": "Roasted brinjal mashed with spices and herbs."
         },
         {
@@ -496,7 +505,7 @@
           "brand": "Kebabi Junction",
           "price": 230,
           "stock": 14,
-          "image": "./northindian/image10.jpg",
+          "image": "./northindianimg/image10.jpg",
           "description": "Grilled paneer cubes in spicy tomato gravy."
         },
         {

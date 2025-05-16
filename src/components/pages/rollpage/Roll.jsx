@@ -1,17 +1,13 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useSelector } from "react-redux";
 
 export default function Productcard({brand}) {
-  const [productData, setProductData] = useState([]);
 
-  useEffect(() => {
-    axios.get("./Productdata/allProduct.json").then((response) => {
-      
-      setProductData(response.data);
-    });
-  }, []);
+  const productData = useSelector((state) => state.productData.allProductData ?? []);
+  
   return (
+
     <div>
       <h1 className="text-center m-3">{`Delicious ${brand} for you`}</h1>
       <div className="d-flex gap-2 m-2">
@@ -28,6 +24,7 @@ export default function Productcard({brand}) {
           </button>
         </div>
       </div>
+
       <div>
         <div className="card-container m-5">
           {productData

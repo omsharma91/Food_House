@@ -15,12 +15,15 @@ import Aboutus from './components/about/Aboutus'
 import Cart from './components/AddToCart/cart'
 import Profile from './components/profile/profile'
 import SearchPage from './components/searchpage/search'
+import { Store } from './assets/store/store'
+import { Provider } from 'react-redux'
 
 export const myContext = createContext();
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [loginData,setLoginData] = useState({})
   return (
+    <Provider store={Store}>
     <myContext.Provider value={{loginData,setLoginData,searchTerm,setSearchTerm}}>
     <Router>
       <Navbarr/>
@@ -42,6 +45,7 @@ function App() {
       </Routes>
     </Router>
     </myContext.Provider>
+    </Provider>
   )
 }
 

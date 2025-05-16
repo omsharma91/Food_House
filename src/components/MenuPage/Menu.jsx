@@ -1,18 +1,17 @@
 import React, { useState } from "react";
-import { useEffect } from "react";
-import axios from "axios";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../../assets/feature/slices";
 
 export default function Menu() {
-  const [productDatas, setProductData] = useState([]);
-  const [selected, setSelected] = useState("");
-  const [cartData,setCartData] = useState([])
+  const dispatch = useDispatch()
+  const productData = useSelector((state)=>state.productData.allProductData ?? [])
 
-  useEffect(() => {
-    axios.get("./Productdata/product.json").then((response) => {
-      setProductData(response.data);
-    });
-  }, []);
+  // const handelcart = (product)=>{
+  //   dispatch(addToCart(product))
+  // }
+
   return (
     <>
       <div className="d-flex m-4 gap-4 justify-content-start">
@@ -49,13 +48,13 @@ export default function Menu() {
       </div>
       <h1 className="text-center m-5">Popular Deals </h1>
       <div className="card-container cont_margin">
-        {productDatas.map((product, index) => (
+        {productData.map((product, index) => (
           <div
             key={index}
             className="d-flex flex-column justify-content-center m-3 p-3 border"
           >
             <img
-              src={`/${product.img}`}
+              src={`/${product.image}`}
               alt={product.name}
               className="img-fluid
             "
@@ -67,6 +66,10 @@ export default function Menu() {
             <p>
               <strong>In Stock : </strong>
               {product.stock}
+            </p>
+            <p>
+              <strong>quantity : </strong>
+              {product.quantity}
             </p>
             <p>
               <strong>Price : </strong>
@@ -82,7 +85,7 @@ export default function Menu() {
               </div>
               <a href="">Order Now</a>
             </div>
-            <button className="btn btn-success m-3" onClick={()=>setCartData(product)}>Add To Cart</button>
+            <button className="btn btn-success m-3" onClick={()=>dispatch(addToCart(product))}>Add To Cart</button>
           </div>
         ))}
       </div>

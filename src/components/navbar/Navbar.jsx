@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Link, Links } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { myContext } from "../../App";
 import { signOut } from "firebase/auth";
@@ -26,7 +26,7 @@ function Navbarr() {
   return (
     <Navbar expand="lg" className="bg-success ">
       <Container fluid>
-        <Navbar.Brand className="text-dark bg-white rounded fw-bold	" href="#">
+        <Navbar.Brand className="text-dark bg-white rounded fw-bold	" href="/">
           Food__House
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
