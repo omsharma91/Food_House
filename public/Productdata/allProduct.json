@@ -105,6 +105,7 @@
       "brand": "Spice Route",
       "price": 260,
       "stock": 14,
+      "quantity":1,
       "image": "./biryaniimg/image10.jpg",
       "description": "Minced meat biryani with bold spices and herbs."
     },
@@ -115,6 +116,7 @@
       "brand": "Wrap It",
       "price": 120,
       "stock": 30,
+      "quantity":1,
       "image": "./rollimg/image1.jpg",
       "description": "A spicy chicken roll wrapped in a soft paratha."
     },
@@ -125,6 +127,7 @@
       "brand": "Veggie Wraps",
       "price": 100,
       "stock": 25,
+      "quantity":1,
       "image": "./rollimg/image2.jpg",
       "description": "Soft wrap filled with spiced paneer cubes."
     },
@@ -135,6 +138,7 @@
       "brand": "Roll Nation",
       "price": 150,
       "stock": 20,
+      "quantity":1,
       "image": "./rollimg/image3.jpg",
       "description": "Juicy mutton pieces wrapped with onions and sauce."
     },
@@ -145,6 +149,8 @@
       "brand": "Egg Express",
       "price": 90,
       "stock": 35,
+      "quantity":1,
+
       "image": "./rollimg/image4.jpg",
       "description": "Simple and tasty roll made with egg and onions."
     },
@@ -155,6 +161,7 @@
       "brand": "Fusion Wraps",
       "price": 140,
       "stock": 18,
+      "quantity":1,
       "image": "./rollimg/image5.jpg",
       "description": "A combo of chicken, egg, and veggies in one roll."
     },
@@ -165,6 +172,7 @@
       "brand": "Wrap World",
       "price": 130,
       "stock": 16,
+      "quantity":1,
       "image": "./rollimg/image6.jpg",
       "description": "A cheesy delight with vegetables and sauce."
     },
@@ -175,6 +183,7 @@
       "brand": "Tandoori Treats",
       "price": 160,
       "stock": 10,
+      "quantity":1,
       "image": "./rollimg/image7.jpg",
       "description": "Tandoori chicken wrapped in spicy dressing."
     },
@@ -185,6 +194,7 @@
       "brand": "Desi Wrap",
       "price": 80,
       "stock": 20,
+      "quantity":1,
       "image": "./rollimg/image8.jpg",
       "description": "Spiced mashed potato filling with chutney."
     },
@@ -195,6 +205,7 @@
       "brand": "Protein Wraps",
       "price": 110,
       "stock": 15,
+      "quantity":1,
       "image": "./rollimg/image9.jpg",
       "description": "A protein-rich roll made with soya chunks."
     },
@@ -205,6 +216,7 @@
       "brand": "BBQ Express",
       "price": 170,
       "stock": 12,
+      "quantity":1,
       "image": "./rollimg/image10.jpg",
       "description": "Barbeque chicken roll with smoky flavor."
     },
@@ -215,6 +227,7 @@
       "brand": "Cake World",
       "price": 350,
       "stock": 8,
+      "quantity":1,
       "image": "./cakeimg/image1.jpg",
       "description": "Rich and moist chocolate layer cake."
     },
@@ -225,6 +238,7 @@
       "brand": "Sweet Tooth",
       "price": 300,
       "stock": 10,
+      "quantity":1,
       "image": "./cakeimg/image2.jpg",
       "description": "Classic vanilla sponge cake with frosting."
     },
@@ -235,6 +249,7 @@
       "brand": "Bake My Day",
       "price": 400,
       "stock": 6,
+      "quantity":1,
       "image": "./cakeimg/image3.jpg",
       "description": "Soft red velvet cake with cream cheese frosting."
     },
@@ -245,6 +260,7 @@
       "brand": "German Delights",
       "price": 370,
       "stock": 9,
+      "quantity":1,
       "image": "./cakeimg/image4.jpg",
       "description": "Chocolate sponge with cherries and whipped cream."
     },
@@ -255,6 +271,7 @@
       "brand": "Tropical Bakes",
       "price": 320,
       "stock": 12,
+      "quantity":1,
       "image": "./cakeimg/image5.jpg",
       "description": "Tangy pineapple cream cake with fruit toppings."
     },
@@ -265,6 +282,7 @@
       "brand": "Crunch Bakes",
       "price": 360,
       "stock": 7,
+      "quantity":1,
       "image": "./cakeimg/image6.jpg",
       "description": "Sweet butterscotch flavored layered cake."
     },
@@ -275,6 +293,7 @@
       "brand": "Cafe Bites",
       "price": 340,
       "stock": 8,
+      "quantity":1,
       "image": "./cakeimg/image7.jpg",
       "description": "Rich cake with hints of coffee and cream."
     },
@@ -285,6 +304,7 @@
       "brand": "Berry Bakes",
       "price": 330,
       "stock": 10,
+      "quantity":1,
       "image": "./cakeimg/image8.jpg",
       "description": "Pink strawberry cake with fruit glaze."
     },
@@ -295,6 +315,7 @@
       "brand": "Mango Mania",
       "price": 340,
       "stock": 9,
+      "quantity":1,
       "image": "./cakeimg/image9.jpg",
       "description": "Seasonal mango flavored soft cream cake."
     },
@@ -305,6 +326,7 @@
       "brand": "Cookie Crumble",
       "price": 380,
       "stock": 6,
+      "quantity":1,
       "image": "./cakeimg/image10.jpg",
       "description": "Chocolate cake topped with Oreo pieces."
     },
@@ -315,6 +337,7 @@
           "brand": "Burger Bite",
           "price": 150,
           "stock": 20,
+          "quantity":1,
           "image": "./burgerimg/image1.jpg",
           "description": "Juicy beef patty with melted cheese in a bun."
         },
@@ -325,6 +348,7 @@
           "brand": "Green Grill",
           "price": 130,
           "stock": 18,
+          "quantity":1,
           "image": "./burgerimg/image2.jpg",
           "description": "Grilled vegetable patty with lettuce and mayo."
         },
@@ -335,6 +359,7 @@
           "brand": "Cluckin' Good",
           "price": 140,
           "stock": 22,
+          "quantity":1,
           "image": "./burgerimg/image3.jpg",
           "description": "Crispy chicken patty in a toasted bun."
         },
@@ -345,6 +370,7 @@
           "brand": "Desi Buns",
           "price": 135,
           "stock": 16,
+          "quantity":1,
           "image": "./burgerimg/image4.jpg",
           "description": "Indian-style burger with grilled paneer filling."
         },
@@ -355,6 +381,7 @@
           "brand": "Fire Grill",
           "price": 160,
           "stock": 12,
+          "quantity":1,
           "image": "./burgerimg/image5.jpg",
           "description": "Extra spicy burger for spice lovers."
         },
@@ -365,6 +392,7 @@
           "brand": "Heavy Bite",
           "price": 180,
           "stock": 10,
+          "quantity":1,
           "image": "./burgerimg/image6.jpg",
           "description": "Two juicy patties stacked in one bun."
         },
@@ -375,6 +403,7 @@
           "brand": "Ocean Buns",
           "price": 155,
           "stock": 14,
+          "quantity":1,
           "image": "./burgerimg/image7.jpg",
           "description": "Light and crispy fish fillet burger."
         },
@@ -385,6 +414,7 @@
           "brand": "Eggcellent Eats",
           "price": 125,
           "stock": 15,
+          "quantity":1,
           "image": "./burgerimg/image8.jpg",
           "description": "Fried egg in bun with mayo and lettuce."
         },
@@ -395,6 +425,7 @@
           "brand": "Smoky Grill",
           "price": 165,
           "stock": 13,
+          "quantity":1,
           "image": "./burgerimg/image9.jpg",
           "description": "BBQ sauce drenched burger with grilled patty."
         },
@@ -405,6 +436,7 @@
           "brand": "Grill King",
           "price": 145,
           "stock": 17,
+          "quantity":1,
           "image": "./burgerimg/image10.jpg",
           "description": "Traditional hamburger with lettuce and tomato."
         },
@@ -415,6 +447,7 @@
           "brand": "Curry House",
           "price": 250,
           "stock": 20,
+          "quantity":1,
           "image": "./northindianimg/image1.jpg",
           "description": "Creamy butter chicken cooked in rich tomato gravy."
         },
@@ -425,6 +458,7 @@
           "brand": "Desi Tadka",
           "price": 200,
           "stock": 25,
+          "quantity":1,
           "image": "./northindianimg/image2.jpg",
           "description": "Spinach curry with soft paneer cubes."
         },
@@ -435,6 +469,7 @@
           "brand": "Punjab Express",
           "price": 180,
           "stock": 18,
+          "quantity":1,
           "image": "./northindianimg/image3.jpg",
           "description": "Rich black lentil curry slow-cooked overnight."
         },
@@ -445,6 +480,7 @@
           "brand": "Chatori Gully",
           "price": 160,
           "stock": 30,
+          "quantity":1,
           "image": "./northindianimg/image4.jpg",
           "description": "Spicy chickpeas served with fluffy fried bread."
         },
@@ -455,6 +491,7 @@
           "brand": "Royal Kitchen",
           "price": 220,
           "stock": 15,
+          "quantity":1,
           "image": "./northindianimg/image5.jpg",
           "description": "Rich creamy paneer curry with cashew gravy."
         },
@@ -465,6 +502,7 @@
           "brand": "Ghar Ka Khana",
           "price": 170,
           "stock": 28,
+          "quantity":1,
           "image": "./northindianimg/image6.jpg",
           "description": "Red kidney beans in gravy served with rice."
         },
@@ -475,6 +513,7 @@
           "brand": "Tandoori Tandoor",
           "price": 90,
           "stock": 35,
+          "quantity":1,
           "image": "./northindianimg/image7.jpg",
           "description": "Stuffed flatbread with spiced mashed potatoes."
         },
@@ -485,6 +524,7 @@
           "brand": "Healthy Curry",
           "price": 190,
           "stock": 20,
+          "quantity":1,
           "image": "./northindianimg/image8.jpg",
           "description": "A mix of seasonal vegetables in tomato gravy."
         },
@@ -495,6 +535,7 @@
           "brand": "Desi Delight",
           "price": 160,
           "stock": 12,
+          "quantity":1,
           "image": "./northindianimg/image9.jpg",
           "description": "Roasted brinjal mashed with spices and herbs."
         },
@@ -505,6 +546,7 @@
           "brand": "Kebabi Junction",
           "price": 230,
           "stock": 14,
+          "quantity":1,
           "image": "./northindianimg/image10.jpg",
           "description": "Grilled paneer cubes in spicy tomato gravy."
         },
@@ -515,6 +557,7 @@
           "brand": "Pizza Hub",
           "price": 250,
           "stock": 20,
+          "quantity":1,
           "image": "./pizzaimg/image1.jpg",
           "description": "Classic cheese pizza with tomato sauce base."
         },
@@ -525,6 +568,7 @@
           "brand": "Cheesy Crust",
           "price": 270,
           "stock": 18,
+          "quantity":1,
           "image": "./pizzaimg/image2.jpg",
           "description": "Loaded with fresh vegetables and cheese."
         },
@@ -535,6 +579,7 @@
           "brand": "Meat Feast",
           "price": 290,
           "stock": 16,
+          "quantity":1,
           "image": "./pizzaimg/image3.jpg",
           "description": "Topped with spicy pepperoni and mozzarella."
         },
@@ -545,6 +590,7 @@
           "brand": "Grill'd Pizza",
           "price": 300,
           "stock": 15,
+          "quantity":1,
           "image": "./pizzaimg/image4.jpg",
           "description": "Smoky BBQ chicken pieces on cheesy crust."
         },
@@ -555,6 +601,7 @@
           "brand": "Indiano's",
           "price": 280,
           "stock": 12,
+          "quantity":1,
           "image": "./pizzaimg/image5.jpg",
           "description": "Indian-style paneer pizza with spicy masala."
         },
@@ -565,6 +612,7 @@
           "brand": "Pizza Palace",
           "price": 290,
           "stock": 13,
+          "quantity":1,
           "image": "./pizzaimg/image6.jpg",
           "description": "Loaded with veggies like capsicum, onion, tomato."
         },
@@ -575,6 +623,7 @@
           "brand": "Spicy Crust",
           "price": 310,
           "stock": 10,
+          "quantity":1,
           "image": "./pizzaimg/image7.jpg",
           "description": "Topped with juicy chicken sausages and herbs."
         },
@@ -585,6 +634,7 @@
           "brand": "Domino Star",
           "price": 295,
           "stock": 14,
+          "quantity":1,
           "image": "./pizzaimg/image8.jpg",
           "description": "Spicy jalapeños, onions, capsicum, and cheese."
         },
@@ -595,6 +645,7 @@
           "brand": "Melto's",
           "price": 320,
           "stock": 8,
+          "quantity":1,
           "image": "./pizzaimg/image9.jpg",
           "description": "Bursting with cheese in every bite."
         },
@@ -605,6 +656,7 @@
           "brand": "Fusion Pie",
           "price": 310,
           "stock": 9,
+          "quantity":1,
           "image": "./pizzaimg/image10.jpg",
           "description": "Indian tandoori chicken twist on a pizza."
         }
