@@ -1,0 +1,19 @@
+.hero {
+    min-height: 100vh;
+    background: url('/hero banner.png') center center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 1rem;
+  }
+  
+  .myheading {
+    font-size: 2rem;
+  }
+  
+  @media (max-width : 768px) {
+    .myheading {
+      font-size: 1.8rem;      
+    }  
+  }
+  
